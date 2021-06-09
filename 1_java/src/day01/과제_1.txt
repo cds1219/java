@@ -1,0 +1,34 @@
+public class Prob1 {
+  public static void main(String s[]){
+            int tom = -1;
+	    _____  marry = '9';
+	    _____  john ;
+	    String  sarah = _____ ;
+            System.out.println( "our friends..\n" 
+       + _____ + ", " + marry + ", " + john + " and " + sarah);
+
+       //System.out.printf() 구문으로 표현
+  }
+
+}
+
+[클래스 실행결과]
+our friends..
+-1, 9, false and Sarah Jang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
