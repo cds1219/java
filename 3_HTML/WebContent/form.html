@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="LoginServlet" method="get">
+		<label for="id">ID</label>ID<input name="id" id="id">
+		<input type="button" value="아이디중복확인"><br> 
+		PW<input type="password" name="pw"><br>
+		사진<input type="file" name="pic"><br>
+		취미:
+		자전거<input type="checkbox" name="hoby" value="bicycle">
+		여행<input type="checkbox" name="hoby" value="travel">
+		드라이브<input type="checkbox" name="hoby" value="drive">
+		영화<input type="checkbox" name="hoby" value="movie">
+		<input type="submit" value="회원가입"><br>
+				<!-- 전송하는기능submit 버튼은 그냥 모양만 -->
+		특기:
+		자전거<input type="radio" name="specialty" value="bicycle">
+		여행<input type="radio" name="specialty" value="travel">
+		드라이브<input type="radio" name="specialty" value="drive">
+		영화<input type="radio" name="specialty" value="movie"><br>
+		<input type="hidden" name="secureToken" value="hsdf13">
+	</form>
+</body>
+</html>
