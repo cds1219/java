@@ -9,6 +9,12 @@ public class Test03_람다 {
 		Command delete = () -> {
 			System.out.println("DeleteCommand 수행 => 삭제 작업 ~~");
 		};
+//		Command delete = new Command() {
+//			@Override
+//			public void exec() {
+//				System.out.println("DeleteCommand 수행 => 삭제 작업 ~~");
+//			}
+//		};
 
 		Command update = () -> {
 			System.out.println("UpdateCommand 수행 => 수정 작업 ~~");
