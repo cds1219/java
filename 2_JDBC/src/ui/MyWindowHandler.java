@@ -8,5 +8,5 @@ public class MyWindowHandler extends WindowAdapter {
 	public void windowClosing(WindowEvent e) {
 		// TODO Auto-generated method stub
 		System.exit(0);
-	}
+	} 
 }

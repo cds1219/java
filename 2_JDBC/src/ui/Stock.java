@@ -4,7 +4,7 @@ import java.awt.*;
 import java.util.ArrayList;
 
 import dao.UserDAO;
-import vo.UserVO;
+import vo.UserVO_Encapsulation;
 
 public class Stock {
 	public void onCreate() {
@@ -23,9 +23,9 @@ public class Stock {
 	
 	public void selectUsers() {
 		UserDAO dao=new UserDAO();
-		ArrayList<UserVO> list= dao.selectUsers();
+		ArrayList<UserVO_Encapsulation> list= dao.selectUsers();
 		
-		for(UserVO v:list) {
+		for(UserVO_Encapsulation v:list) {
 			System.out.println(v);
 		}
 	}
